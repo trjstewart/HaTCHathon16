@@ -3,6 +3,12 @@ logs
 *.log
 npm-debug.log*
 
+WebApp/build
+.idea
+
+*.html
+*.css
+
 # Runtime data
 pids
 *.pid
