@@ -1,1 +1,9 @@
+@import "partials/scss/bootstrap";
 @import "partials/scss/general.scss";
+
+$primary-color: #1a2d3a;
+
+.navbar {
+  background: $primary-color;
+  margin-bottom: 0;
+}
