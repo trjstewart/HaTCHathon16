@@ -92,6 +92,11 @@ body {
       height: 200px;
       border-bottom: 1px solid #f7f7f7;
       border-top: 1px solid #f7f7f7;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height:auto;
+      }
     }
   }
 }
@@ -136,9 +141,10 @@ body { margin: 0; background: #333; }
     flex: auto;
     width: 200px;
     margin: .5vw;
+    overflow: hidden;
     img {
-      width: 100%;
-      height: auto;
+      height: 100%;
+      width: auto;
       max-height: 200px;
       background: #eee;
     }
@@ -148,5 +154,12 @@ body { margin: 0; background: #333; }
     div {
       margin: 0;
     }
+  }
+}
+
+.logoWrapper {
+  img {
+    height: 100%;
+    width: auto;
   }
 }
