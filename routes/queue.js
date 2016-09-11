@@ -20,10 +20,4 @@ router.post('/signup', function(req, res) {
   });
 });
 
-router.get('/:id', function(req, res) {
-    models.User.findOne({ where: { id: req.params.id } }).then((user) => {
-      res.send({ success: true, user:user });
-    });
-});
-
 module.exports = router;
